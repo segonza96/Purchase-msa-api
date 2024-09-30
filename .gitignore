@@ -1,0 +1,74 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+target/
+*.class
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/modules.xml
+.idea/spring.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/springBoot.xml
+.idea/libraries/
+.idea/jarRepositories.xml
+.idea/gradle.xml
+.idea/maven.xml
+.idea/caches/
+.idea/codeStyles/
+.idea/findUsages/
+.idea/artifacts/
+.idea/.name
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+### Gradle ###
+.gradle/
+build/
+
+# Ignore Mac-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.log.*
+
+# Spring Boot specific
+spring.log
+
+# Ignore Java and Kotlin specific compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Compiled Kotlin files
+*.kotlin_metadata/
+*.kotlin_module
