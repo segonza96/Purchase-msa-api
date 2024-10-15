@@ -1,4 +1,4 @@
-package com.upgrade.purchase_manager_api.infraestructure.entry_points;
+package com.upgrade.purchase_manager_api.infraestructure.entry_points.web;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping(value = "/purchase", produces = MediaType.APPLICATION_JSON_VALUE)
-
 public class PurchaseOrderLoaderController {
 
     @PostMapping(value = "/load")

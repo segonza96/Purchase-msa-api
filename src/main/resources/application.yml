@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: purchase-order-manager-api
+  servlet:
+      multipart:
+        max-file-size: 10MB  # Tamaño máximo permitido por archivo
+        max-request-size: 20MB  # Tamaño máximo de la solicitud multipart
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/up-grade-db
+    username: myuser
+    password: mypassword
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migration
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
